@@ -1,0 +1,203 @@
+/*NAVIGATION BAR*/
+nav {
+    position: fixed;
+    left: 0;
+    top: 1%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.nav-bar {
+    left: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(0, 216, 232);
+}
+
+.nav-list {
+
+    margin-left: 5vw;
+    font-size: 1.3em;
+
+}
+
+.icon {
+    width: 30px;
+    height: auto;
+}
+
+
+/*END OF NAVIGATION BAR*/
+
+h1,
+h2,
+h3,
+p,
+a,
+li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 15%;
+    color: rgb(0, 216, 232);
+    font-size: 3em;
+}
+
+
+
+p {
+    font-size: 1.2em;
+}
+
+/*BUTTONS*/
+.div-button {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.button-link {
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.button-link.contact {
+    color: #fff;
+}
+
+.button {
+    display: inline-block;
+    outline: none;
+    line-height: 40px;
+    padding: 0 30px;
+    font-size: .8em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button.contact {
+    color: #fff;
+    background: rgb(0, 216, 232);
+    border: 1px solid transparent;
+
+}
+
+.button.contact:hover {
+    color: rgb(0, 216, 232);
+    border: 1px solid rgb(0, 216, 232);
+    background: #fff;
+}
+
+.button.contact:hover .button-link {
+    color: rgb(0, 216, 232);
+}
+
+.button.portfolio {
+    color: rgb(0, 216, 232);
+    background: #fff;
+    border: 1px solid rgb(0, 216, 232);
+
+}
+
+.button.portfolio:hover {
+    color: #fff;
+    border: 1px solid #fff;
+    background: rgb(0, 216, 232);
+}
+
+.button.portfolio:hover .button-link {
+    color: #fff;
+}
+
+.button-link.portfolio {
+    color: rgb(0, 216, 232);
+}
+
+/*END OF BUTTONS*/
+
+hr {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: 1px dashed rgb(0, 216, 232);
+}
+
+
+.portfolio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#portfolio-section {
+    margin-top: -60px;
+}
+
+.image-portfolio {
+    width: 400px;
+    height: 300px;
+
+}
+
+ul {
+    list-style: none;
+    font-style: oblique;
+    margin-left: 0;
+}
+
+
+#resume-section {
+    text-align: center;
+}
+
+.skills {
+    margin-bottom: 0;
+    margin-top: 2px;
+    font-style: oblique;
+}
+
+.year {
+    margin-top: 0px;
+}
+
+
+footer {
+    background-color: rgb(0, 216, 232);
+    height: 8vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    color: gray;
+    margin-top: 60px;
+}
+
+.italic {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#p-footer {
+    margin-right: 10px;
+}
